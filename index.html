@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Colynz Chemicals Enterprises | Chemical Products Supplier in Lagos</title>
+<meta name="description" content="Colynz Chemicals Enterprises supplies chemical products in Lagos, including water treatment chemicals, liquid soap materials, insecticides, cleaning agents, bleach and more.">
+<style>
+:root{--ink:#10222b;--muted:#4b5f69;--bg:#f6f9fa;--card:#fff;--brand:#0b5d7a;--brand-d:#083f54;--accent:#f2b705;--wa:#1faa59;--line:#dbe5e9;--r:16px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:17px;overflow-x:hidden;padding-bottom:70px}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+h2{font-size:clamp(1.5rem,4vw,2.1rem);line-height:1.2;margin-bottom:12px}
+.lead{color:var(--muted);max-width:60ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:13px 22px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid transparent;font-size:1rem;cursor:pointer}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-pri{background:var(--accent);color:var(--ink)}
+.btn-out{border-color:#fff;color:#fff}
+.btn-dark{background:var(--brand);color:#fff}
+.btn-ghost{border-color:var(--brand);color:var(--brand)}
+header{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.logo{text-decoration:none;line-height:1.05}
+.logo b{display:block;font-size:1.35rem;letter-spacing:.14em;color:var(--brand)}
+.logo span{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+nav ul{display:none;list-style:none;gap:24px;padding:0}
+nav a{text-decoration:none;font-weight:600}
+nav a:hover{color:var(--brand)}
+.bar .btn{padding:9px 16px;font-size:.92rem}
+@media(min-width:800px){nav ul{display:flex}}
+.hero{position:relative;color:#fff;padding:0;min-height:78vh;display:flex;align-items:flex-end;background:linear-gradient(135deg,#083f54,#0b5d7a 60%,#12303c)}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,30,40,.35),rgba(8,30,40,.88))}
+.hero .wrap{position:relative;z-index:1;padding-top:80px;padding-bottom:48px}
+.hero h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.1;max-width:18ch;margin-bottom:16px}
+.hero p{max-width:52ch;font-size:1.08rem;opacity:.95;margin-bottom:26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.grid{display:grid;gap:20px;grid-template-columns:1fr;margin-top:28px}
+@media(min-width:620px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:0 2px 14px rgba(16,34,43,.08);display:flex;flex-direction:column}
+.ph{aspect-ratio:4/3;position:relative;background:repeating-linear-gradient(45deg,#e3edf1,#e3edf1 12px,#edf4f7 12px,#edf4f7 24px);display:grid;place-items:center;color:var(--muted);font-size:.8rem;text-align:center}
+.ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.card .body{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:1.15rem}
+.card p{color:var(--muted);font-size:.95rem;flex:1}
+.card .btn{margin-top:8px;padding:11px 16px;font-size:.93rem}
+.note{font-size:.8rem;color:var(--muted);margin-top:16px}
+.why{background:#fff}
+.feat{display:grid;gap:16px;margin-top:26px;grid-template-columns:1fr}
+@media(min-width:700px){.feat{grid-template-columns:repeat(3,1fr)}}
+.feat div{border-left:4px solid var(--accent);padding:6px 0 6px 16px}
+.feat strong{display:block}
+.feat span{color:var(--muted);font-size:.95rem}
+.about{background:var(--brand-d);color:#fff}
+.about .lead{color:#d3e4ea}
+.enq{background:var(--accent);text-align:center}
+.enq p{margin:0 auto 22px;max-width:50ch}
+.enq .cta{justify-content:center}
+.two{display:grid;gap:28px;grid-template-columns:1fr}
+@media(min-width:800px){.two{grid-template-columns:1fr 1fr}}
+address{font-style:normal;margin:12px 0 18px;font-size:1.05rem}
+.map{border-radius:var(--r);overflow:hidden;min-height:300px;background:#dfe9ed;border:1px solid var(--line)}
+.map iframe{width:100%;height:100%;min-height:300px;border:0}
+.phones{list-style:none;padding:0;display:grid;gap:10px;margin:14px 0 20px}
+.phones a{display:block;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 16px;text-decoration:none;font-weight:700;font-size:1.15rem;color:var(--brand)}
+footer{background:#0c1a21;color:#c2d0d6;padding:44px 0 30px;font-size:.95rem}
+footer h2{color:#fff;font-size:1.2rem}
+footer a{color:#fff}
+.fgrid{display:grid;gap:24px;grid-template-columns:1fr}
+@media(min-width:700px){.fgrid{grid-template-columns:1.4fr 1fr 1fr}}
+footer ul{list-style:none;padding:0;display:grid;gap:6px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;display:flex;gap:8px;padding:10px;background:#fff;box-shadow:0 -3px 14px rgba(0,0,0,.12)}
+.sticky .btn{flex:1;padding:12px}
+@media(min-width:800px){.sticky{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="Colynz Chemicals Enterprises home"><b>COLYNZ</b><span>Chemicals Enterprises</span></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-wa" data-wa href="#">WhatsApp Us</a>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <!-- Replace with the cropped storefront photo: images/hero-storefront.jpg -->
+  <img src="images/hero-storefront.jpg" alt="Colynz Chemicals Enterprises storefront on Ijesha Road, Surulere, Lagos" onerror="this.remove()">
+  <div class="wrap">
+    <h1>Quality Chemical Products for Home &amp; Industrial Use</h1>
+    <p>Your local source for water treatment chemicals, liquid soap materials, cleaning agents and other chemical products in Lagos.</p>
+    <div class="cta">
+      <a class="btn btn-pri" href="#products">View Products</a>
+      <a class="btn btn-out" data-wa href="#">Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="products">
+  <div class="wrap">
+    <h2>Product Categories</h2>
+    <p class="lead">Browse the product areas available at Colynz. Contact us for availability, sizes and pricing.</p>
+    <div class="grid">
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/water-treatment.jpg" alt="Water treatment chemicals (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Water Treatment</h3><p>Chemicals used in treating and purifying water for household and other uses.</p><a class="btn btn-ghost" data-wa data-topic="Water Treatment" href="#">Enquire on WhatsApp</a></div>
+      </article>
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/liquid-soap.jpg" alt="Liquid soap materials (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Liquid Soap</h3><p>Materials for making and supplying liquid soap.</p><a class="btn btn-ghost" data-wa data-topic="Liquid Soap" href="#">Enquire on WhatsApp</a></div>
+      </article>
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/insecticides.jpg" alt="Insecticide products (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Insecticides</h3><p>Products for controlling insects and household pests.</p><a class="btn btn-ghost" data-wa data-topic="Insecticides" href="#">Enquire on WhatsApp</a></div>
+      </article>
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/germicides-herbicides.jpg" alt="Germicide and herbicide products (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Germicides &amp; Herbicides</h3><p>Disinfecting agents and weed-control products.</p><a class="btn btn-ghost" data-wa data-topic="Germicides & Herbicides" href="#">Enquire on WhatsApp</a></div>
+      </article>
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/air-freshener-bleach.jpg" alt="Air freshener and bleach products (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Air Freshener &amp; Bleach</h3><p>Freshening and bleaching products for home and commercial cleaning.</p><a class="btn btn-ghost" data-wa data-topic="Air Freshener & Bleach" href="#">Enquire on WhatsApp</a></div>
+      </article>
+      <article class="card">
+        <div class="ph"><span>Photo placeholder</span><img src="images/toilet-tile-cleaners.jpg" alt="Toilet and tile cleaning agents (placeholder image)" loading="lazy" onerror="this.remove()"></div>
+        <div class="body"><h3>Toilet &amp; Tile Cleaning Agents</h3><p>Cleaning agents for toilets, tiles and bathroom surfaces.</p><a class="btn btn-ghost" data-wa data-topic="Toilet & Tile Cleaning Agents" href="#">Enquire on WhatsApp</a></div>
+      </article>
+    </div>
+    <p class="note">Images shown are illustrative placeholders and may not depict Colynz stock.</p>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap">
+    <h2>Why Choose Colynz</h2>
+    <div class="feat">
+      <div><strong>Convenient Lagos location</strong><span>Find us on Ijesha Road, Surulere.</span></div>
+      <div><strong>Products for different applications</strong><span>Household, cleaning, water treatment and more.</span></div>
+      <div><strong>Retail and bulk enquiries</strong><span>Ask about the quantity you need.</span></div>
+      <div><strong>Direct phone and WhatsApp</strong><span>Reach the shop quickly, any way you prefer.</span></div>
+      <div><strong>Local customer service</strong><span>Speak to a local team about your requirements.</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <h2>About Colynz Chemicals Enterprises</h2>
+    <p class="lead">Colynz Chemicals Enterprises supplies chemical products for household, cleaning, water treatment and other applications. Located on Ijesha Road in Lagos, the business serves customers looking for chemical products and related materials.</p>
+  </div>
+</section>
+
+<section class="enq">
+  <div class="wrap">
+    <h2>Looking for a Chemical Product?</h2>
+    <p>Contact Colynz Chemicals Enterprises for product availability, pricing and enquiries.</p>
+    <div class="cta">
+      <a class="btn btn-wa" data-wa href="#">WhatsApp Us</a>
+      <a class="btn btn-dark" href="tel:07062632434">Call Now</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap two">
+    <div>
+      <h2>Visit or Contact Us</h2>
+      <address><strong>Colynz Chemicals Enterprises</strong><br>67 Ijesha Road<br>Surulere, Lagos, Nigeria</address>
+      <a class="btn btn-dark" id="dir" target="_blank" rel="noopener" href="#">Get Directions</a>
+      <ul class="phones" aria-label="Phone numbers">
+        <li><a href="tel:07062632434">07062632434</a></li>
+        <li><a href="tel:07051522697">07051522697</a></li>
+        <li><a href="tel:07037248016">07037248016</a></li>
+      </ul>
+      <a class="btn btn-wa" data-wa href="#">WhatsApp: 07062632434</a>
+    </div>
+    <div class="map">
+      <iframe title="Map: 67 Ijesha Road, Surulere, Lagos" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=67+Ijesha+Road+Surulere+Lagos+Nigeria&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap fgrid">
+    <div><h2>Colynz Chemicals Enterprises</h2><p>Chemical Products &amp; Supplies in Lagos</p><p>67 Ijesha Road, Surulere, Lagos</p></div>
+    <div><strong style="color:#fff">Phone</strong><ul><li><a href="tel:07062632434">07062632434</a></li><li><a href="tel:07051522697">07051522697</a></li><li><a href="tel:07037248016">07037248016</a></li></ul></div>
+    <div><strong style="color:#fff">Quick links</strong><ul><li><a data-wa href="#">WhatsApp</a></li><li><a class="dirlink" target="_blank" rel="noopener" href="#">Get Directions</a></li></ul></div>
+  </div>
+</footer>
+
+<div class="sticky">
+  <a class="btn btn-wa" data-wa href="#">WhatsApp</a>
+  <a class="btn btn-dark" href="tel:07062632434">Call</a>
+</div>
+
+<script>
+// ---- Client details: edit here only ----
+var WA_NUMBER = "2347062632434";
+var ADDRESS = "67 Ijesha Road, Surulere, Lagos, Nigeria";
+// ----------------------------------------
+document.querySelectorAll("[data-wa]").forEach(function(a){
+  var t = a.getAttribute("data-topic");
+  var msg = t ? "Hello Colynz Chemicals, I would like to enquire about " + t + "." : "Hello Colynz Chemicals, I would like to make an enquiry.";
+  a.href = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg);
+  a.target = "_blank"; a.rel = "noopener";
+});
+var d = "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(ADDRESS);
+document.querySelectorAll("#dir,.dirlink").forEach(function(a){a.href = d});
+</script>
+</body>
+</html>
